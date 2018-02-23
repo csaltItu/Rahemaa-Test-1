@@ -1,0 +1,135 @@
+%%$$~UnAssigned~0~Thu_2017-02-23_03-17-27~L0:::~doCurl called with url: http://127.0.0.1/wa/DBScripts/getCallTableCutoff.php?days=5, is returning: 0
+%%$$~UnAssigned~0~Thu_2017-02-23_03-17-27~L0:::~doCurl called with url: http://127.0.0.1/wa/DBScripts/getReqTableCutoff.php?days=5, is returning: 0
+%%$$~UnAssigned~0~Thu_2017-02-23_03-17-27~L0:::~doCurl called with url: http://127.0.0.1/wa/DBScripts/keyToPh.php?key=3566, is returning: 03239754007
+%%$$~UnAssigned~0~Thu_2017-02-23_03-17-27~L0:::~doCurl called with url: http://127.0.0.1/wa/DBScripts/CountryCode.php?ph=03239754007, is returning: 32 - Belgium
+%%$$~UnAssigned~0~Thu_2017-02-23_03-17-36~L0:::~doCurl called with url: http://127.0.0.1/wa/DBScripts/search_phno.php?ph=3566&app=PollyGame&cutoff=0, is returning: 87
+%%$$~UnAssigned~0~Thu_2017-02-23_03-17-36~L0:::~doCurl called with url: http://127.0.0.1/wa/DBScripts/GetPreferredLangs.php?id=185580, is returning: Urdu,Urdu
+%%$$~UnAssigned~0~Thu_2017-02-23_03-17-36~L0:::~doCurl called with url: http://127.0.0.1/wa/DBScripts/keyToPh.php?key=3566, is returning: 03239754007
+%%$$~UnAssigned~0~Thu_2017-02-23_03-17-36~L0:::~doCurl called with url: http://127.0.0.1/wa/DBScripts/New_Call.php?reqid=185580&phno=3566&calltype=Call-me-back&status=InProgress&ch=WateenE1, is returning: 504387
+%%$$~504387~0~Thu_2017-02-23_03-17-36~L1:::~App: PollyGame, Call Type: Call-me-back, Phone Number: 3566, Originating Request ID: 185580, Call ID: 504387, Country: PK, ouserid: 03239754007, Age: 87, EHLAge: 0, Country Code: 32
+%%$$~504387~0~Thu_2017-02-23_03-17-36~L0:::~Call Table cutoff found at:0
+%%$$~504387~0~Thu_2017-02-23_03-17-36~L0:::~Req Table cutoff found at:0
+%%$$~504387~0~Thu_2017-02-23_03-17-36~L2:::~sayInt about to play: D:/xampp/htdocs/wa/prompts/Urdu/Polly/sil1500.wav D:/xampp/htdocs/wa/prompts/Urdu/Polly/sil1500.wav
+%%$$~504387~0~Thu_2017-02-23_03-17-39~L2:::~sayInt complete. Now returning: value: -, name: not_Good_timeout_or_invalid, attempt: , choice:
+%%$$~504387~0~Thu_2017-02-23_03-17-39~L0:::~PGame prompts directory set to: D:/xampp/htdocs/wa/prompts/Urdu/Polly/
+%%$$~504387~0~Thu_2017-02-23_03-17-39~L0:::~PHealth prompts directory set to: D:/xampp/htdocs/wa/prompts/Urdu/EHL/
+%%$$~504387~0~Thu_2017-02-23_03-17-39~L1:::~Now attempting to call:
+%%$$~504387~0~Thu_2017-02-23_03-17-39~L1:::~Calling via WateenE1.
+%%$$~504387~0~Thu_2017-02-23_03-17-39~L1:::~Dialling .
+%%$$~504387~0~Thu_2017-02-23_03-17-39~L0:::~Starting Call Recording
+%%$$~504387~0~Thu_2017-02-23_03-17-39~L0:::~doCurl called with url: http://127.0.0.1/wa/DBScripts/Update_Call_Status.php?callid=504387&status=InProgress, is returning: Early Return.
+%%$$~504387~0~Thu_2017-02-23_03-17-39~L0:::~doCurl called with url: http://127.0.0.1/wa/DBScripts/Update_Request_Status.php?reqid=185580&status=fulfilled&ch=WateenE1, is returning: Early Return.
+%%$$~504387~0~Thu_2017-02-23_03-17-39~L2:::~Call Answered.
+%%$$~504387~0~Thu_2017-02-23_03-17-39~L0:::~pauseHere is called with param: TRUE
+%%$$~504387~0~Thu_2017-02-23_03-17-40~L2:::~Inside PollyGameAnswerCall(). Calltype: Call-me-back
+%%$$~504387~0~Thu_2017-02-23_03-17-40~L0:::~Starting Call Recording
+%%$$~504387~0~Thu_2017-02-23_03-17-40~L0:::~doCurl called with url: http://127.0.0.1/wa/DBScripts/Update_Call_Status.php?callid=504387&status=InProgress, is returning: Early Return.
+%%$$~504387~0~Thu_2017-02-23_03-17-40~L0:::~doCurl called with url: http://127.0.0.1/wa/DBScripts/Update_Request_Status.php?reqid=185580&status=fulfilled&ch=WateenE1, is returning: Early Return.
+%%$$~504387~0~Thu_2017-02-23_03-17-40~L2:::~Call Answered.
+%%$$~504387~0~Thu_2017-02-23_03-17-40~L2:::~Playing Greetings
+%%$$~504387~0~Thu_2017-02-23_03-17-40~L2:::~About to listen to PGame Greetings.
+%%$$~504387~0~Thu_2017-02-23_03-17-40~L2:::~sayInt about to play: D:/xampp/htdocs/wa/prompts/Urdu/Polly/Salaam.wav D:/xampp/htdocs/wa/prompts/Urdu/Polly/sil1000.wav D:/xampp/htdocs/wa/prompts/Urdu/Polly/Greetings.wav
+%%$$~504387~0~Thu_2017-02-23_03-17-43~L2:::~sayInt prompt D:/xampp/htdocs/wa/prompts/Urdu/Polly/Salaam.wav D:/xampp/htdocs/wa/prompts/Urdu/Polly/sil1000.wav D:/xampp/htdocs/wa/prompts/Urdu/Polly/Greetings.wav was barged-in with 3
+%%$$~504387~0~Thu_2017-02-23_03-17-43~L2:::~sayInt complete. Now returning: value: 3, name: choice, attempt: , choice:
+%%$$~504387~0~Thu_2017-02-23_03-17-43~L0:::~bargeInToChangeLang called with params: TRUE
+%%$$~504387~0~Thu_2017-02-23_03-17-43~L1:::~Barged-in by pressing 3 to change system language to GuinFrench.
+%%$$~504387~0~Thu_2017-02-23_03-17-43~L0:::~switchSystemLanguage called with params: GuinFrench, choice
+%%$$~504387~0~Thu_2017-02-23_03-17-43~L0:::~switchMessageLanguage called with params: GuinFrench, choice, FALSE
+%%$$~504387~0~Thu_2017-02-23_03-17-43~L2:::~Finished listening to PGame Greetings.
+%%$$~504387~0~Thu_2017-02-23_03-17-43~L2:::~About to listen to PGame Greetings.
+%%$$~504387~0~Thu_2017-02-23_03-17-43~L2:::~sayInt about to play: D:/xampp/htdocs/wa/prompts/GuinFrench/Polly/Salaam.wav D:/xampp/htdocs/wa/prompts/GuinFrench/Polly/sil1000.wav D:/xampp/htdocs/wa/prompts/GuinFrench/Polly/Greetings.wav
+%%$$~504387~0~Thu_2017-02-23_03-17-43~L2:::~sayInt complete. Now returning: value: -, name: not_Good_timeout_or_invalid, attempt: , choice:
+%%$$~504387~0~Thu_2017-02-23_03-17-43~L0:::~bargeInToChangeLang called with params: TRUE
+%%$$~504387~0~Thu_2017-02-23_03-17-43~L2:::~Finished listening to PGame Greetings.
+%%$$~504387~0~Thu_2017-02-23_03-17-43~L2:::~Now playing Informed consent.
+%%$$~504387~0~Thu_2017-02-23_03-17-43~L2:::~sayInt about to play: D:/xampp/htdocs/wa/prompts/GuinFrench/Polly/InformedConsent.wav
+%%$$~504387~0~Thu_2017-02-23_03-17-43~L2:::~sayInt complete. Now returning: value: -, name: not_Good_timeout_or_invalid, attempt: , choice:
+%%$$~504387~0~Thu_2017-02-23_03-17-43~L0:::~doCurl called with url: http://127.0.0.1/wa/DBScripts/New_Rec.php?callid=504387, is returning: 61673
+%%$$~504387~0~Thu_2017-02-23_03-17-43~L2:::~Assigned Recording ID 61673
+%%$$~504387~0~Thu_2017-02-23_03-17-43~L2:::~Prompting the user to speak
+%%$$~504387~0~Thu_2017-02-23_03-17-43~L2:::~recordAudio was called with prompt: D:/xampp/htdocs/wa/prompts/GuinFrench/Polly/Promptforspeaking.wav and parameters: 1, 600, 3, 30, , #, http://127.0.0.1/wa/Scripts/process_recording.php?recid=61673, audio/wav,
+%%$$~504387~0~Thu_2017-02-23_03-17-48~L0:::~doCurl called with url: http://127.0.0.1/wa/Scripts/processAudFile.php?path=s-61673.wav, is returning:
+%%$$~504387~0~Thu_2017-02-23_03-17-48~L2:::~recordAudio complete. Now returning.
+%%$$~504387~0~Thu_2017-02-23_03-17-48~L2:::~Recording Complete. Result:
+D:/xampp/htdocs/wa/Praat/Recordings/61000/s-61673.wav
+%%$$~504387~0~Thu_2017-02-23_03-17-48~L1:::~firstCall entered.
+%%$$~504387~0~Thu_2017-02-23_03-17-51~L0:::~doCurl called with url: http://127.0.0.1/wa/DBScripts/first_call.php?uid=3566&calltype=Call-me-back, is returning: {\"result\":{\"error\":false,\"first_call\":false,\"count\":87}}
+%%$$~504387~0~Thu_2017-02-23_03-17-51~L1:::~firstCall JSON received: {\"result\":{\"error\":false,\"first_call\":false,\"count\":87}}
+%%$$~504387~0~Thu_2017-02-23_03-17-51~L1:::~firstCall returning.
+%%$$~504387~0~Thu_2017-02-23_03-17-51~L1:::~firstCall returning, error=false.
+%%$$~504387~0~Thu_2017-02-23_03-17-51~L1:::~firstCall first_call:
+%%$$~504387~0~Thu_2017-02-23_03-17-51~L1:::~getMsgSurveyFlag entered.
+%%$$~504387~0~Thu_2017-02-23_03-17-51~L0:::~doCurl called with url: http://127.0.0.1/wa/DBScripts/check_ms_flag.php?uid=3566, is returning: {\"result\":{\"error\":false,\"flag\":\"1\"}}
+%%$$~504387~0~Thu_2017-02-23_03-17-51~L1:::~getMsgSurveyFlag JSON received: {\"result\":{\"error\":false,\"flag\":\"1\"}}
+%%$$~504387~0~Thu_2017-02-23_03-17-51~L1:::~getMsgSurveyFlag returning.
+%%$$~504387~0~Thu_2017-02-23_03-17-51~L1:::~getMsgSurveyFlag returning, error=false.
+%%$$~504387~0~Thu_2017-02-23_03-17-51~L1:::~getMsgSurveyFlag flag: 1
+%%$$~504387~0~Thu_2017-02-23_03-17-51~L1:::~playInfoMessage entered.
+%%$$~504387~0~Thu_2017-02-23_03-17-51~L2:::~sayInt about to play: D:/xampp/htdocs/wa/InfoMessages/infomsg-intro.wav
+%%$$~504387~0~Thu_2017-02-23_03-17-55~L2:::~sayInt complete. Now returning: value: -, name: not_Good_timeout_or_invalid, attempt: , choice:
+%%$$~504387~0~Thu_2017-02-23_03-17-55~L1:::~getInfoMessageToPlay entered.
+%%$$~504387~0~Thu_2017-02-23_03-17-55~L0:::~doCurl called with url: http://127.0.0.1/wa/DBScripts/get_info_message.php?callid=504387&uid=3566, is returning: {\"result\":{\"error\":false,\"msg_id\":\"6\"}}
+%%$$~504387~0~Thu_2017-02-23_03-17-55~L1:::~getInfoMessageToPlay JSON received: {\"result\":{\"error\":false,\"msg_id\":\"6\"}}
+%%$$~504387~0~Thu_2017-02-23_03-17-55~L1:::~getInfoMessageToPlay returning.
+%%$$~504387~0~Thu_2017-02-23_03-17-55~L1:::~getInfoMessageToPlay returning, error=false.
+%%$$~504387~0~Thu_2017-02-23_03-17-55~L1:::~getInfoMessageToPlay MSG ID: 6
+%%$$~504387~0~Thu_2017-02-23_03-17-55~L1:::~playInfoMessage Info message returned: 6
+%%$$~504387~0~Thu_2017-02-23_03-17-55~L2:::~sayInt about to play: D:/xampp/htdocs/wa/InfoMessages/6.wav
+%%$$~504387~0~Thu_2017-02-23_03-18-07~L2:::~sayInt complete. Now returning: value: -, name: not_Good_timeout_or_invalid, attempt: , choice:
+%%$$~504387~0~Thu_2017-02-23_03-18-07~L1:::~updateInfoMessageCount entered.
+%%$$~504387~0~Thu_2017-02-23_03-18-07~L0:::~doCurl called with url: http://127.0.0.1/wa/DBScripts/update_info_message.php?callid=504387&uid=3566&id=6, is returning: {\"result\":{\"error\":false,\"string\":\"2-7-4-3-5-1-8-9-10-6\",\"message\":\"String Updated\"}}
+%%$$~504387~0~Thu_2017-02-23_03-18-07~L1:::~updateInfoMessageCount JSON received: {\"result\":{\"error\":false,\"string\":\"2-7-4-3-5-1-8-9-10-6\",\"message\":\"String Updated\"}}
+%%$$~504387~0~Thu_2017-02-23_03-18-07~L1:::~updateInfoMessageCount returning, error=false.
+%%$$~504387~0~Thu_2017-02-23_03-18-07~L2:::~sayInt about to play: D:/xampp/htdocs/wa/InfoMessages/infomsg-end.wav
+%%$$~504387~0~Thu_2017-02-23_03-18-12~L2:::~sayInt complete. Now returning: value: -, name: not_Good_timeout_or_invalid, attempt: , choice:
+%%$$~504387~0~Thu_2017-02-23_03-18-12~L1:::~playInfoMessage returning.
+%%$$~504387~0~Thu_2017-02-23_03-18-12~L2:::~Prompting the user to get ready for effects.
+%%$$~504387~0~Thu_2017-02-23_03-18-12~L2:::~sayInt about to play: D:/xampp/htdocs/wa/prompts/GuinFrench/Polly/Readyforeffects.wav
+%%$$~504387~0~Thu_2017-02-23_03-18-12~L2:::~sayInt complete. Now returning: value: -, name: not_Good_timeout_or_invalid, attempt: , choice:
+%%$$~504387~0~Thu_2017-02-23_03-18-12~L0:::~getFilePath is called.
+%%$$~504387~0~Thu_2017-02-23_03-18-12~L0:::~getFilePath called with params: 61673.wav, TRUE, is returning: 61000/
+%%$$~504387~0~Thu_2017-02-23_03-18-12~L0:::~doCurl called with url: http://127.0.0.1/wa/Scripts/doesFileExist.php?fname=99-s-61673.wav, is returning: <br>path:D:\\xampp\\htdocs\\wa\\Praat\\ModifiedRecordings\\0\\<br>1
+%%$$~504387~0~Thu_2017-02-23_03-18-12~L2:::~sayInt about to play: D:/xampp/htdocs/wa/Praat/clock_fast.wav
+%%$$~504387~0~Thu_2017-02-23_03-18-14~L2:::~sayInt complete. Now returning: value: -, name: not_Good_timeout_or_invalid, attempt: , choice:
+%%$$~504387~0~Thu_2017-02-23_03-18-14~L2:::~sayInt about to play: D:/xampp/htdocs/wa/Praat/ModifiedRecordings/61000/99-s-61673.wav
+D:/xampp/htdocs/wa/prompts/GuinFrench/Polly/sil500.wav
+%%$$~504387~0~Thu_2017-02-23_03-18-17~L2:::~sayInt complete. Now returning: value: -, name: not_Good_timeout_or_invalid, attempt: , choice:
+%%$$~504387~0~Thu_2017-02-23_03-18-17~L2:::~Played effect number: 0
+%%$$~504387~0~Thu_2017-02-23_03-18-17~L2:::~Now playing effect related options.
+%%$$~504387~0~Thu_2017-02-23_03-18-27~L1:::~ReMDBLog entered.
+%%$$~504387~0~Thu_2017-02-23_03-18-27~L0:::~doCurl called with url: http://127.0.0.1/wa/RaahEMaa/Scripts/update_log.php?uid=3566&action=ReM-Entered-Via-Hook&callid=504387&fileid=0, is returning: {\"result\":{\"error\":false,\"message\":\"inserted\"}}
+%%$$~504387~0~Thu_2017-02-23_03-18-27~L1:::~ReMDBLog JSON received: {\"result\":{\"error\":false,\"message\":\"inserted\"}}
+%%$$~504387~0~Thu_2017-02-23_03-18-27~L1:::~ReMDBLog returning.
+%%$$~504387~0~Thu_2017-02-23_03-18-27~L1:::~ReMMenu entered.
+%%$$~504387~0~Thu_2017-02-23_03-18-27~L2:::~sayInt about to play: D:/xampp/htdocs/wa/RaahEMaa/Prompts/Salam.wav
+%%$$~504387~0~Thu_2017-02-23_03-18-33~L2:::~sayInt complete. Now returning: value: -, name: not_Good_timeout_or_invalid, attempt: , choice:
+%%$$~504387~0~Thu_2017-02-23_03-18-33~L1:::~ReMMenu prompt: D:/xampp/htdocs/wa/RaahEMaa/Prompts/factual-baatain.wav D:/xampp/htdocs/wa/RaahEMaa/Prompts/1.wav D:/xampp/htdocs/wa/RaahEMaa/Prompts/funny-baatain.wav D:/xampp/htdocs/wa/RaahEMaa/Prompts/2.wav D:/xampp/htdocs/wa/RaahEMaa/Prompts/raaye.wav D:/xampp/htdocs/wa/RaahEMaa/Prompts/3.wav D:/xampp/htdocs/wa/RaahEMaa/Prompts/wapis.wav D:/xampp/htdocs/wa/RaahEMaa/Prompts/4.wav
+%%$$~504387~0~Thu_2017-02-23_03-18-53~L1:::~ReMDBLog entered.
+%%$$~504387~0~Thu_2017-02-23_03-18-53~L0:::~doCurl called with url: http://127.0.0.1/wa/RaahEMaa/Scripts/update_log.php?uid=3566&action=Option:fact&callid=504387&fileid=0, is returning: {\"result\":{\"error\":false,\"message\":\"inserted\"}}
+%%$$~504387~0~Thu_2017-02-23_03-18-53~L1:::~ReMDBLog JSON received: {\"result\":{\"error\":false,\"message\":\"inserted\"}}
+%%$$~504387~0~Thu_2017-02-23_03-18-53~L1:::~ReMDBLog returning.
+%%$$~504387~0~Thu_2017-02-23_03-18-53~L1:::~ReMPlay entered with type:fact
+%%$$~504387~0~Thu_2017-02-23_03-18-53~L1:::~ReMGetRecordings entered.
+%%$$~504387~0~Thu_2017-02-23_03-18-53~L0:::~doCurl called with url: http://127.0.0.1/wa/RaahEMaa/Scripts/get_recordings.php, is returning: {\"result\":{\"error\":false,\"types\":[\"funny\",\"fact\"],\"recs\":{\"funny\":[[\"Raro_2\",\"Raro_prompt\",\"18\"],[\"Raro_1\",\"Raro_prompt\",\"17\"],[\"Tezabi_totay_1\",\"Tezabi_totay_prompt\",\"22\"],[\"Punjabi_nazm_1\",\"Punjabi_nazm_prompt\",\"15\"],[\"Anwar_Masood_2\",\"Anwar_Masood_prompt\",\"2\"],[\"Punjabi_nazm_2\",\"Punjabi_nazm_prompt\",\"16\"],[\"Azizi_1\",\"Azizi_prompt\",\"3\"],[\"Azizi_2\",\"Azizi_prompt\",\"4\"],[\"Tezabi_totay_2\",\"Tezabi_totay_prompt\",\"23\"],[\"Anwar_Masood_1\",\"Anwar_Masood_prompt\",\"1\"],[\"Santa_banta_2\",\"Santa_Banta_prompt\",\"21\"],[\"Santa_banta_1\",\"Santa_Banta_prompt\",\"20\"]],\"fact\":[[\"Dengue\",\"Dengue_prompt\",\"9\"],[\"Human_body\",\"Human_body_prompt\",\"11\"],[\"Deep1\",\"Deep_prompt\",\"8\"],[\"Traffic_rules\",\"Traffic_rules_prompt\",\"24\"],[\"Human_rights\",\"Human_rights_prompt\",\"12\"],[\"Rich_people\",\"Rich_people_prompt\",\"19\"],[\"Goats\",\"Goats_prompt\",\"10\"],[\"Death\",\"Death_prompt\",\"6\"],[\"Malaria\",\"Malaria_prompt\",\"13\"],[\"Crocodiles\",\"Crocodiles_prompt\",\"5\"],[\"Poverty\",\"Poverty_prompt\",\"14\"],[\"Deep2\",\"Deep_prompt\",\"7\"]]}}}
+%%$$~504387~0~Thu_2017-02-23_03-18-53~L1:::~ReMGetRecordings JSON received: {\"result\":{\"error\":false,\"types\":[\"funny\",\"fact\"],\"recs\":{\"funny\":[[\"Raro_2\",\"Raro_prompt\",\"18\"],[\"Raro_1\",\"Raro_prompt\",\"17\"],[\"Tezabi_totay_1\",\"Tezabi_totay_prompt\",\"22\"],[\"Punjabi_nazm_1\",\"Punjabi_nazm_prompt\",\"15\"],[\"Anwar_Masood_2\",\"Anwar_Masood_prompt\",\"2\"],[\"Punjabi_nazm_2\",\"Punjabi_nazm_prompt\",\"16\"],[\"Azizi_1\",\"Azizi_prompt\",\"3\"],[\"Azizi_2\",\"Azizi_prompt\",\"4\"],[\"Tezabi_totay_2\",\"Tezabi_totay_prompt\",\"23\"],[\"Anwar_Masood_1\",\"Anwar_Masood_prompt\",\"1\"],[\"Santa_banta_2\",\"Santa_Banta_prompt\",\"21\"],[\"Santa_banta_1\",\"Santa_Banta_prompt\",\"20\"]],\"fact\":[[\"Dengue\",\"Dengue_prompt\",\"9\"],[\"Human_body\",\"Human_body_prompt\",\"11\"],[\"Deep1\",\"Deep_prompt\",\"8\"],[\"Traffic_rules\",\"Traffic_rules_prompt\",\"24\"],[\"Human_rights\",\"Human_rights_prompt\",\"12\"],[\"Rich_people\",\"Rich_people_prompt\",\"19\"],[\"Goats\",\"Goats_prompt\",\"10\"],[\"Death\",\"Death_prompt\",\"6\"],[\"Malaria\",\"Malaria_prompt\",\"13\"],[\"Crocodiles\",\"Crocodiles_prompt\",\"5\"],[\"Poverty\",\"Poverty_prompt\",\"14\"],[\"Deep2\",\"Deep_prompt\",\"7\"]]}}}
+%%$$~504387~0~Thu_2017-02-23_03-18-53~L1:::~ReMGetRecordings returning.
+%%$$~504387~0~Thu_2017-02-23_03-18-53~L1:::~ReMGetRecordings returning, error=false.
+%%$$~504387~0~Thu_2017-02-23_03-18-53~L1:::~ReMGetRecordings types: [\"funny\",\"fact\"]
+%%$$~504387~0~Thu_2017-02-23_03-18-53~L1:::~ReMGetRecordings recs: {\"funny\":[[\"Raro_2\",\"Raro_prompt\",\"18\"],[\"Raro_1\",\"Raro_prompt\",\"17\"],[\"Tezabi_totay_1\",\"Tezabi_totay_prompt\",\"22\"],[\"Punjabi_nazm_1\",\"Punjabi_nazm_prompt\",\"15\"],[\"Anwar_Masood_2\",\"Anwar_Masood_prompt\",\"2\"],[\"Punjabi_nazm_2\",\"Punjabi_nazm_prompt\",\"16\"],[\"Azizi_1\",\"Azizi_prompt\",\"3\"],[\"Azizi_2\",\"Azizi_prompt\",\"4\"],[\"Tezabi_totay_2\",\"Tezabi_totay_prompt\",\"23\"],[\"Anwar_Masood_1\",\"Anwar_Masood_prompt\",\"1\"],[\"Santa_banta_2\",\"Santa_Banta_prompt\",\"21\"],[\"Santa_banta_1\",\"Santa_Banta_prompt\",\"20\"]],\"fact\":[[\"Dengue\",\"Dengue_prompt\",\"9\"],[\"Human_body\",\"Human_body_prompt\",\"11\"],[\"Deep1\",\"Deep_prompt\",\"8\"],[\"Traffic_rules\",\"Traffic_rules_prompt\",\"24\"],[\"Human_rights\",\"Human_rights_prompt\",\"12\"],[\"Rich_people\",\"Rich_people_prompt\",\"19\"],[\"Goats\",\"Goats_prompt\",\"10\"],[\"Death\",\"Death_prompt\",\"6\"],[\"Malaria\",\"Malaria_prompt\",\"13\"],[\"Crocodiles\",\"Crocodiles_prompt\",\"5\"],[\"Poverty\",\"Poverty_prompt\",\"14\"],[\"Deep2\",\"Deep_prompt\",\"7\"]]}
+%%$$~504387~0~Thu_2017-02-23_03-18-53~L1:::~ReMPlay New ID:[\"Dengue\",\"Dengue_prompt\",\"9\"]
+%%$$~504387~0~Thu_2017-02-23_03-18-53~L1:::~ReMPlay Now Rotating!
+%%$$~504387~0~Thu_2017-02-23_03-18-53~L1:::~ReMPlay Current stack: [[\"Dengue\",\"Dengue_prompt\",\"9\"],[\"Human_body\",\"Human_body_prompt\",\"11\"],[\"Deep1\",\"Deep_prompt\",\"8\"],[\"Traffic_rules\",\"Traffic_rules_prompt\",\"24\"],[\"Human_rights\",\"Human_rights_prompt\",\"12\"],[\"Rich_people\",\"Rich_people_prompt\",\"19\"],[\"Goats\",\"Goats_prompt\",\"10\"],[\"Death\",\"Death_prompt\",\"6\"],[\"Malaria\",\"Malaria_prompt\",\"13\"],[\"Crocodiles\",\"Crocodiles_prompt\",\"5\"],[\"Poverty\",\"Poverty_prompt\",\"14\"],[\"Deep2\",\"Deep_prompt\",\"7\"]]
+%%$$~504387~0~Thu_2017-02-23_03-18-53~L1:::~ReMPlay Rotated stack: [[\"Human_body\",\"Human_body_prompt\",\"11\"],[\"Deep1\",\"Deep_prompt\",\"8\"],[\"Traffic_rules\",\"Traffic_rules_prompt\",\"24\"],[\"Human_rights\",\"Human_rights_prompt\",\"12\"],[\"Rich_people\",\"Rich_people_prompt\",\"19\"],[\"Goats\",\"Goats_prompt\",\"10\"],[\"Death\",\"Death_prompt\",\"6\"],[\"Malaria\",\"Malaria_prompt\",\"13\"],[\"Crocodiles\",\"Crocodiles_prompt\",\"5\"],[\"Poverty\",\"Poverty_prompt\",\"14\"],[\"Deep2\",\"Deep_prompt\",\"7\"],[\"Dengue\",\"Dengue_prompt\",\"9\"]]
+%%$$~504387~0~Thu_2017-02-23_03-18-53~L1:::~ReMPlay ID:[\"Dengue\",\"Dengue_prompt\",\"9\"]
+%%$$~504387~0~Thu_2017-02-23_03-18-53~L2:::~sayInt about to play: D:/xampp/htdocs/wa/RaahEMaa/Recs/Dengue_prompt.wav D:/xampp/htdocs/wa/RaahEMaa/Recs/Dengue.wav
+%%$$~504387~0~Thu_2017-02-23_03-18-58~L1:::~Is the current call active? false. Hanging up if the call is not active.
+%%$$~504387~0~Thu_2017-02-23_03-18-58~L2:::~Prehangup was called.
+%%$$~504387~0~Thu_2017-02-23_03-18-58~L0:::~doCurl called with url: http://127.0.0.1/wa/DBScripts/Update_Waiting_DLV_Reqs.php?rcallid=504387, is returning: Early Return.
+%%$$~504387~0~Thu_2017-02-23_03-18-58~L0:::~doCurl called with url: http://127.0.0.1/wa/DBScripts/Update_Call_Status.php?callid=504387&status=Answered, is returning: Early Return.
+%%$$~504387~0~Thu_2017-02-23_03-18-58~L0:::~calledID:
+-ERR no reply
+, SessionID: 02127f90-03d3-4dc2-b5d5-82606b65c18b
+%%$$~504387~0~Thu_2017-02-23_03-18-58~L2:::~Hanging Up. Call ended for callid: 504387
+%%$$~504387~0~Thu_2017-02-23_03-18-58~L0:::~doCurl called with url: http://127.0.0.1/wa/DBScripts/Update_Call_Endtime.php?callid=504387, is returning: 0
+%%$$~504387~0~Thu_2017-02-23_03-18-58~L0:::~sendLogs called.
+%%$$

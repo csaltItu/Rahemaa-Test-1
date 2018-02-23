@@ -1,0 +1,239 @@
+%%$$~UnAssigned~0~Wed_2017-03-01_16-39-07~L0:::~doCurl called with url: http://127.0.0.1/wa/DBScripts/getCallTableCutoff.php?days=5, is returning: 0
+%%$$~UnAssigned~0~Wed_2017-03-01_16-39-07~L0:::~doCurl called with url: http://127.0.0.1/wa/DBScripts/getReqTableCutoff.php?days=5, is returning: 0
+%%$$~UnAssigned~0~Wed_2017-03-01_16-39-07~L0:::~doCurl called with url: http://127.0.0.1/wa/DBScripts/keyToPh.php?key=3566, is returning: 03239754007
+%%$$~UnAssigned~0~Wed_2017-03-01_16-39-07~L0:::~doCurl called with url: http://127.0.0.1/wa/DBScripts/CountryCode.php?ph=03239754007, is returning: 32 - Belgium
+%%$$~UnAssigned~0~Wed_2017-03-01_16-39-18~L0:::~doCurl called with url: http://127.0.0.1/wa/DBScripts/search_phno.php?ph=3566&app=PollyGame&cutoff=0, is returning: 95
+%%$$~UnAssigned~0~Wed_2017-03-01_16-39-18~L0:::~doCurl called with url: http://127.0.0.1/wa/DBScripts/GetPreferredLangs.php?id=203974, is returning: Urdu,Urdu
+%%$$~UnAssigned~0~Wed_2017-03-01_16-39-18~L0:::~doCurl called with url: http://127.0.0.1/wa/DBScripts/keyToPh.php?key=3566, is returning: 03239754007
+%%$$~UnAssigned~0~Wed_2017-03-01_16-39-19~L0:::~doCurl called with url: http://127.0.0.1/wa/DBScripts/New_Call.php?reqid=203974&phno=3566&calltype=Call-me-back&status=InProgress&ch=WateenE1, is returning: 554686
+%%$$~554686~0~Wed_2017-03-01_16-39-19~L1:::~App: PollyGame, Call Type: Call-me-back, Phone Number: 3566, Originating Request ID: 203974, Call ID: 554686, Country: PK, ouserid: 03239754007, Age: 95, EHLAge: 0, Country Code: 32
+%%$$~554686~0~Wed_2017-03-01_16-39-19~L0:::~Call Table cutoff found at:0
+%%$$~554686~0~Wed_2017-03-01_16-39-19~L0:::~Req Table cutoff found at:0
+%%$$~554686~0~Wed_2017-03-01_16-39-19~L2:::~sayInt about to play: D:/xampp/htdocs/wa/prompts/Urdu/Polly/sil1500.wav D:/xampp/htdocs/wa/prompts/Urdu/Polly/sil1500.wav
+%%$$~554686~0~Wed_2017-03-01_16-39-22~L2:::~sayInt complete. Now returning: value: -, name: not_Good_timeout_or_invalid, attempt: , choice:
+%%$$~554686~0~Wed_2017-03-01_16-39-22~L0:::~PGame prompts directory set to: D:/xampp/htdocs/wa/prompts/Urdu/Polly/
+%%$$~554686~0~Wed_2017-03-01_16-39-22~L0:::~PHealth prompts directory set to: D:/xampp/htdocs/wa/prompts/Urdu/EHL/
+%%$$~554686~0~Wed_2017-03-01_16-39-22~L1:::~Now attempting to call:
+%%$$~554686~0~Wed_2017-03-01_16-39-22~L1:::~Calling via WateenE1.
+%%$$~554686~0~Wed_2017-03-01_16-39-22~L1:::~Dialling .
+%%$$~554686~0~Wed_2017-03-01_16-39-22~L0:::~Starting Call Recording
+%%$$~554686~0~Wed_2017-03-01_16-39-22~L0:::~doCurl called with url: http://127.0.0.1/wa/DBScripts/Update_Call_Status.php?callid=554686&status=InProgress, is returning: Early Return.
+%%$$~554686~0~Wed_2017-03-01_16-39-22~L0:::~doCurl called with url: http://127.0.0.1/wa/DBScripts/Update_Request_Status.php?reqid=203974&status=fulfilled&ch=WateenE1, is returning: Early Return.
+%%$$~554686~0~Wed_2017-03-01_16-39-22~L2:::~Call Answered.
+%%$$~554686~0~Wed_2017-03-01_16-39-22~L0:::~pauseHere is called with param: TRUE
+%%$$~554686~0~Wed_2017-03-01_16-39-23~L2:::~Inside PollyGameAnswerCall(). Calltype: Call-me-back
+%%$$~554686~0~Wed_2017-03-01_16-39-23~L0:::~Starting Call Recording
+%%$$~554686~0~Wed_2017-03-01_16-39-23~L0:::~doCurl called with url: http://127.0.0.1/wa/DBScripts/Update_Call_Status.php?callid=554686&status=InProgress, is returning: Early Return.
+%%$$~554686~0~Wed_2017-03-01_16-39-23~L0:::~doCurl called with url: http://127.0.0.1/wa/DBScripts/Update_Request_Status.php?reqid=203974&status=fulfilled&ch=WateenE1, is returning: Early Return.
+%%$$~554686~0~Wed_2017-03-01_16-39-23~L2:::~Call Answered.
+%%$$~554686~0~Wed_2017-03-01_16-39-23~L2:::~Playing Greetings
+%%$$~554686~0~Wed_2017-03-01_16-39-23~L2:::~About to listen to PGame Greetings.
+%%$$~554686~0~Wed_2017-03-01_16-39-23~L1:::~ReMMenuT2 entered.
+%%$$~554686~0~Wed_2017-03-01_16-39-23~L2:::~sayInt about to play: D:/xampp/htdocs/wa/RaahEMaa/Prompts/Salam.wav
+%%$$~554686~0~Wed_2017-03-01_16-39-29~L2:::~sayInt complete. Now returning: value: -, name: not_Good_timeout_or_invalid, attempt: , choice:
+%%$$~554686~0~Wed_2017-03-01_16-39-29~L1:::~ReMMenuT2 prompt: D:/xampp/htdocs/wa/RaahEMaa/Prompts/Test2mainprompt.wav D:/xampp/htdocs/wa/RaahEMaa/Prompts/raaye.wav D:/xampp/htdocs/wa/RaahEMaa/Prompts/3.wav D:/xampp/htdocs/wa/RaahEMaa/Prompts/wapis.wav D:/xampp/htdocs/wa/RaahEMaa/Prompts/4.wav
+%%$$~554686~0~Wed_2017-03-01_16-39-36~L1:::~ReMDBLog entered.
+%%$$~554686~0~Wed_2017-03-01_16-39-36~L0:::~doCurl called with url: http://127.0.0.1/wa/RaahEMaa/Scripts/update_log.php?uid=3566&action=Option:Trivia&callid=554686&fileid=0, is returning: {\"result\":{\"error\":false,\"message\":\"inserted\"}}
+%%$$~554686~0~Wed_2017-03-01_16-39-36~L1:::~ReMDBLog JSON received: {\"result\":{\"error\":false,\"message\":\"inserted\"}}
+%%$$~554686~0~Wed_2017-03-01_16-39-36~L1:::~ReMDBLog returning.
+%%$$~554686~0~Wed_2017-03-01_16-39-36~L1:::~ReMTriviaMenu entered.
+%%$$~554686~0~Wed_2017-03-01_16-39-36~L1:::~ReMTriviaMenu prompt: D:/xampp/htdocs/wa/RaahEMaa/Prompts/Triviaprompt.wav D:/xampp/htdocs/wa/RaahEMaa/Prompts/wapis.wav D:/xampp/htdocs/wa/RaahEMaa/Prompts/6.wav
+%%$$~554686~0~Wed_2017-03-01_16-39-41~L1:::~ReMDBLog entered.
+%%$$~554686~0~Wed_2017-03-01_16-39-41~L0:::~doCurl called with url: http://127.0.0.1/wa/RaahEMaa/Scripts/update_log.php?uid=3566&action=Trivia:Pakistan&callid=554686&fileid=0, is returning: {\"result\":{\"error\":false,\"message\":\"inserted\"}}
+%%$$~554686~0~Wed_2017-03-01_16-39-41~L1:::~ReMDBLog JSON received: {\"result\":{\"error\":false,\"message\":\"inserted\"}}
+%%$$~554686~0~Wed_2017-03-01_16-39-41~L1:::~ReMDBLog returning.
+%%$$~554686~0~Wed_2017-03-01_16-39-41~L2:::~sayInt about to play: D:/xampp/htdocs/wa/RaahEMaa/Prompts/Aglasawaal.wav
+%%$$~554686~0~Wed_2017-03-01_16-39-44~L2:::~sayInt complete. Now returning: value: -, name: not_Good_timeout_or_invalid, attempt: , choice:
+%%$$~554686~0~Wed_2017-03-01_16-39-44~L1:::~ReMTrivia prompt: D:/xampp/htdocs/wa/RaahEMaa/Prompts/PakistanQ1.wav D:/xampp/htdocs/wa/RaahEMaa/Prompts/PakistanQ1options.wav
+%%$$~554686~0~Wed_2017-03-01_16-39-53~L1:::~ReMDBLog entered.
+%%$$~554686~0~Wed_2017-03-01_16-39-53~L0:::~doCurl called with url: http://127.0.0.1/wa/RaahEMaa/Scripts/update_log.php?uid=3566&action=Trivia:pak-PakistanQ1.wav&callid=554686&fileid=1, is returning: {\"result\":{\"error\":false,\"message\":\"inserted\"}}
+%%$$~554686~0~Wed_2017-03-01_16-39-53~L1:::~ReMDBLog JSON received: {\"result\":{\"error\":false,\"message\":\"inserted\"}}
+%%$$~554686~0~Wed_2017-03-01_16-39-53~L1:::~ReMDBLog returning.
+%%$$~554686~0~Wed_2017-03-01_16-39-53~L1:::~ReMDBLog entered.
+%%$$~554686~0~Wed_2017-03-01_16-39-53~L0:::~doCurl called with url: http://127.0.0.1/wa/RaahEMaa/Scripts/update_log.php?uid=3566&action=Trivia:pak-PakistanQ1.wav-incorrect&callid=554686&fileid=1, is returning: {\"result\":{\"error\":false,\"message\":\"inserted\"}}
+%%$$~554686~0~Wed_2017-03-01_16-39-53~L1:::~ReMDBLog JSON received: {\"result\":{\"error\":false,\"message\":\"inserted\"}}
+%%$$~554686~0~Wed_2017-03-01_16-39-53~L1:::~ReMDBLog returning.
+%%$$~554686~0~Wed_2017-03-01_16-39-53~L2:::~sayInt about to play: D:/xampp/htdocs/wa/RaahEMaa/Prompts/wrong_effect.wav
+%%$$~554686~0~Wed_2017-03-01_16-39-54~L2:::~sayInt complete. Now returning: value: -, name: not_Good_timeout_or_invalid, attempt: , choice:
+%%$$~554686~0~Wed_2017-03-01_16-39-54~L1:::~ReMTriviaUsersAnswers entered.
+%%$$~554686~0~Wed_2017-03-01_16-39-54~L0:::~doCurl called with url: http://127.0.0.1/wa/RaahEMaa/Scripts/trivia_answers.php?uid=3566&type=t&callid=554686&qname=pak&question=PakistanQ1.wav&answer=1, is returning: {\"result\":{\"error\":false,\"right\":0,\"wrong\":0,\"quiz\":0,\"_right\":0,\"_wrong\":0,\"_quiz\":0,\"_users questions attempts\":1,\"_users quiz atempts\":1}}
+%%$$~554686~0~Wed_2017-03-01_16-39-54~L1:::~ReMTriviaUsersAnswers JSON received: {\"result\":{\"error\":false,\"right\":0,\"wrong\":0,\"quiz\":0,\"_right\":0,\"_wrong\":0,\"_quiz\":0,\"_users questions attempts\":1,\"_users quiz atempts\":1}}
+%%$$~554686~0~Wed_2017-03-01_16-39-54~L1:::~ReMTriviaUsersAnswers returning.
+%%$$~554686~0~Wed_2017-03-01_16-39-54~L2:::~sayInt about to play: D:/xampp/htdocs/wa/RaahEMaa/Prompts/0.wav D:/xampp/htdocs/wa/RaahEMaa/Prompts/Wrong.wav
+%%$$~554686~0~Wed_2017-03-01_16-40-01~L2:::~sayInt complete. Now returning: value: -, name: not_Good_timeout_or_invalid, attempt: , choice:
+%%$$~554686~0~Wed_2017-03-01_16-40-01~L1:::~ReMInsertAnswer entered.
+%%$$~554686~0~Wed_2017-03-01_16-40-02~L0:::~doCurl called with url: http://127.0.0.1/wa/RaahEMaa/Scripts/insert_answer.php?uid=3566&type=t&callid=554686&qname=pak&question=PakistanQ1.wav&correct=&answer=1, is returning: {\"result\":{\"error\":false,\"message\":\"inserted\"}}
+%%$$~554686~0~Wed_2017-03-01_16-40-02~L1:::~ReMInsertAnswer JSON received: {\"result\":{\"error\":false,\"message\":\"inserted\"}}
+%%$$~554686~0~Wed_2017-03-01_16-40-02~L1:::~ReMInsertAnswer returning.
+%%$$~554686~0~Wed_2017-03-01_16-40-02~L2:::~sayInt about to play: D:/xampp/htdocs/wa/RaahEMaa/Prompts/PakistanQ1true.wav
+%%$$~554686~0~Wed_2017-03-01_16-40-16~L2:::~sayInt complete. Now returning: value: -, name: not_Good_timeout_or_invalid, attempt: , choice:
+%%$$~554686~0~Wed_2017-03-01_16-40-33~L1:::~ReMDBLog entered.
+%%$$~554686~0~Wed_2017-03-01_16-40-33~L0:::~doCurl called with url: http://127.0.0.1/wa/RaahEMaa/Scripts/update_log.php?uid=3566&action=Trivia:pak-PakistanQ1.wav&callid=554686&fileid=4, is returning: {\"result\":{\"error\":false,\"message\":\"inserted\"}}
+%%$$~554686~0~Wed_2017-03-01_16-40-33~L1:::~ReMDBLog JSON received: {\"result\":{\"error\":false,\"message\":\"inserted\"}}
+%%$$~554686~0~Wed_2017-03-01_16-40-33~L1:::~ReMDBLog returning.
+%%$$~554686~0~Wed_2017-03-01_16-40-33~L1:::~ReMDBLog entered.
+%%$$~554686~0~Wed_2017-03-01_16-40-33~L0:::~doCurl called with url: http://127.0.0.1/wa/RaahEMaa/Scripts/update_log.php?uid=3566&action=Trivia:pak-PakistanQ1.wav-incorrect&callid=554686&fileid=4, is returning: {\"result\":{\"error\":false,\"message\":\"inserted\"}}
+%%$$~554686~0~Wed_2017-03-01_16-40-33~L1:::~ReMDBLog JSON received: {\"result\":{\"error\":false,\"message\":\"inserted\"}}
+%%$$~554686~0~Wed_2017-03-01_16-40-33~L1:::~ReMDBLog returning.
+%%$$~554686~0~Wed_2017-03-01_16-40-33~L2:::~sayInt about to play: D:/xampp/htdocs/wa/RaahEMaa/Prompts/wrong_effect.wav
+%%$$~554686~0~Wed_2017-03-01_16-40-34~L2:::~sayInt complete. Now returning: value: -, name: not_Good_timeout_or_invalid, attempt: , choice:
+%%$$~554686~0~Wed_2017-03-01_16-40-34~L1:::~ReMTriviaUsersAnswers entered.
+%%$$~554686~0~Wed_2017-03-01_16-40-34~L0:::~doCurl called with url: http://127.0.0.1/wa/RaahEMaa/Scripts/trivia_answers.php?uid=3566&type=t&callid=554686&qname=pak&question=PakistanQ1.wav&answer=4, is returning: {\"result\":{\"error\":false,\"right\":0,\"wrong\":0,\"quiz\":0,\"_right\":0,\"_wrong\":0,\"_quiz\":0,\"_users questions attempts\":1,\"_users quiz atempts\":1}}
+%%$$~554686~0~Wed_2017-03-01_16-40-34~L1:::~ReMTriviaUsersAnswers JSON received: {\"result\":{\"error\":false,\"right\":0,\"wrong\":0,\"quiz\":0,\"_right\":0,\"_wrong\":0,\"_quiz\":0,\"_users questions attempts\":1,\"_users quiz atempts\":1}}
+%%$$~554686~0~Wed_2017-03-01_16-40-34~L1:::~ReMTriviaUsersAnswers returning.
+%%$$~554686~0~Wed_2017-03-01_16-40-34~L2:::~sayInt about to play: D:/xampp/htdocs/wa/RaahEMaa/Prompts/0.wav D:/xampp/htdocs/wa/RaahEMaa/Prompts/Wrong.wav
+%%$$~554686~0~Wed_2017-03-01_16-40-41~L2:::~sayInt complete. Now returning: value: -, name: not_Good_timeout_or_invalid, attempt: , choice:
+%%$$~554686~0~Wed_2017-03-01_16-40-41~L1:::~ReMInsertAnswer entered.
+%%$$~554686~0~Wed_2017-03-01_16-40-42~L0:::~doCurl called with url: http://127.0.0.1/wa/RaahEMaa/Scripts/insert_answer.php?uid=3566&type=t&callid=554686&qname=pak&question=PakistanQ1.wav&correct=&answer=4, is returning: {\"result\":{\"error\":false,\"message\":\"inserted\"}}
+%%$$~554686~0~Wed_2017-03-01_16-40-42~L1:::~ReMInsertAnswer JSON received: {\"result\":{\"error\":false,\"message\":\"inserted\"}}
+%%$$~554686~0~Wed_2017-03-01_16-40-42~L1:::~ReMInsertAnswer returning.
+%%$$~554686~0~Wed_2017-03-01_16-40-42~L2:::~sayInt about to play: D:/xampp/htdocs/wa/RaahEMaa/Prompts/PakistanQ1true.wav
+%%$$~554686~0~Wed_2017-03-01_16-40-55~L2:::~sayInt complete. Now returning: value: -, name: not_Good_timeout_or_invalid, attempt: , choice:
+%%$$~554686~0~Wed_2017-03-01_16-41-08~L1:::~ReMDBLog entered.
+%%$$~554686~0~Wed_2017-03-01_16-41-08~L0:::~doCurl called with url: http://127.0.0.1/wa/RaahEMaa/Scripts/update_log.php?uid=3566&action=Trivia:pak-PakistanQ1.wav&callid=554686&fileid=3, is returning: {\"result\":{\"error\":false,\"message\":\"inserted\"}}
+%%$$~554686~0~Wed_2017-03-01_16-41-08~L1:::~ReMDBLog JSON received: {\"result\":{\"error\":false,\"message\":\"inserted\"}}
+%%$$~554686~0~Wed_2017-03-01_16-41-08~L1:::~ReMDBLog returning.
+%%$$~554686~0~Wed_2017-03-01_16-41-08~L1:::~ReMDBLog entered.
+%%$$~554686~0~Wed_2017-03-01_16-41-08~L0:::~doCurl called with url: http://127.0.0.1/wa/RaahEMaa/Scripts/update_log.php?uid=3566&action=Trivia:pak-PakistanQ1.wav-correct&callid=554686&fileid=3, is returning: {\"result\":{\"error\":false,\"message\":\"inserted\"}}
+%%$$~554686~0~Wed_2017-03-01_16-41-08~L1:::~ReMDBLog JSON received: {\"result\":{\"error\":false,\"message\":\"inserted\"}}
+%%$$~554686~0~Wed_2017-03-01_16-41-08~L1:::~ReMDBLog returning.
+%%$$~554686~0~Wed_2017-03-01_16-41-08~L2:::~sayInt about to play: D:/xampp/htdocs/wa/RaahEMaa/Prompts/applause_effect.wav
+%%$$~554686~0~Wed_2017-03-01_16-41-12~L2:::~sayInt complete. Now returning: value: -, name: not_Good_timeout_or_invalid, attempt: , choice:
+%%$$~554686~0~Wed_2017-03-01_16-41-12~L1:::~ReMTriviaUsersAnswers entered.
+%%$$~554686~0~Wed_2017-03-01_16-41-12~L0:::~doCurl called with url: http://127.0.0.1/wa/RaahEMaa/Scripts/trivia_answers.php?uid=3566&type=t&callid=554686&qname=pak&question=PakistanQ1.wav&answer=3, is returning: {\"result\":{\"error\":false,\"right\":0,\"wrong\":0,\"quiz\":0,\"_right\":0,\"_wrong\":0,\"_quiz\":0,\"_users questions attempts\":1,\"_users quiz atempts\":1}}
+%%$$~554686~0~Wed_2017-03-01_16-41-12~L1:::~ReMTriviaUsersAnswers JSON received: {\"result\":{\"error\":false,\"right\":0,\"wrong\":0,\"quiz\":0,\"_right\":0,\"_wrong\":0,\"_quiz\":0,\"_users questions attempts\":1,\"_users quiz atempts\":1}}
+%%$$~554686~0~Wed_2017-03-01_16-41-12~L1:::~ReMTriviaUsersAnswers returning.
+%%$$~554686~0~Wed_2017-03-01_16-41-12~L2:::~sayInt about to play: D:/xampp/htdocs/wa/RaahEMaa/Prompts/0.wav D:/xampp/htdocs/wa/RaahEMaa/Prompts/Right.wav
+%%$$~554686~0~Wed_2017-03-01_16-41-19~L2:::~sayInt complete. Now returning: value: -, name: not_Good_timeout_or_invalid, attempt: , choice:
+%%$$~554686~0~Wed_2017-03-01_16-41-19~L1:::~ReMInsertAnswer entered.
+%%$$~554686~0~Wed_2017-03-01_16-41-19~L0:::~doCurl called with url: http://127.0.0.1/wa/RaahEMaa/Scripts/insert_answer.php?uid=3566&type=t&callid=554686&qname=pak&question=PakistanQ1.wav&correct=1&answer=3, is returning: {\"result\":{\"error\":false,\"message\":\"inserted\"}}
+%%$$~554686~0~Wed_2017-03-01_16-41-19~L1:::~ReMInsertAnswer JSON received: {\"result\":{\"error\":false,\"message\":\"inserted\"}}
+%%$$~554686~0~Wed_2017-03-01_16-41-19~L1:::~ReMInsertAnswer returning.
+%%$$~554686~0~Wed_2017-03-01_16-41-19~L2:::~sayInt about to play: D:/xampp/htdocs/wa/RaahEMaa/Prompts/PakistanQ1true.wav
+%%$$~554686~0~Wed_2017-03-01_16-41-32~L2:::~sayInt complete. Now returning: value: -, name: not_Good_timeout_or_invalid, attempt: , choice:
+%%$$~554686~0~Wed_2017-03-01_16-41-32~L2:::~sayInt about to play: D:/xampp/htdocs/wa/RaahEMaa/Prompts/Aglasawaal.wav
+%%$$~554686~0~Wed_2017-03-01_16-41-35~L2:::~sayInt complete. Now returning: value: -, name: not_Good_timeout_or_invalid, attempt: , choice:
+%%$$~554686~0~Wed_2017-03-01_16-41-35~L1:::~ReMTrivia prompt: D:/xampp/htdocs/wa/RaahEMaa/Prompts/PakistanQ2.wav D:/xampp/htdocs/wa/RaahEMaa/Prompts/PakistanQ2options.wav
+%%$$~554686~0~Wed_2017-03-01_16-41-51~L1:::~ReMDBLog entered.
+%%$$~554686~0~Wed_2017-03-01_16-41-51~L0:::~doCurl called with url: http://127.0.0.1/wa/RaahEMaa/Scripts/update_log.php?uid=3566&action=Trivia:pak-PakistanQ2.wav&callid=554686&fileid=1, is returning: {\"result\":{\"error\":false,\"message\":\"inserted\"}}
+%%$$~554686~0~Wed_2017-03-01_16-41-51~L1:::~ReMDBLog JSON received: {\"result\":{\"error\":false,\"message\":\"inserted\"}}
+%%$$~554686~0~Wed_2017-03-01_16-41-51~L1:::~ReMDBLog returning.
+%%$$~554686~0~Wed_2017-03-01_16-41-51~L1:::~ReMDBLog entered.
+%%$$~554686~0~Wed_2017-03-01_16-41-51~L0:::~doCurl called with url: http://127.0.0.1/wa/RaahEMaa/Scripts/update_log.php?uid=3566&action=Trivia:pak-PakistanQ2.wav-incorrect&callid=554686&fileid=1, is returning: {\"result\":{\"error\":false,\"message\":\"inserted\"}}
+%%$$~554686~0~Wed_2017-03-01_16-41-51~L1:::~ReMDBLog JSON received: {\"result\":{\"error\":false,\"message\":\"inserted\"}}
+%%$$~554686~0~Wed_2017-03-01_16-41-51~L1:::~ReMDBLog returning.
+%%$$~554686~0~Wed_2017-03-01_16-41-51~L2:::~sayInt about to play: D:/xampp/htdocs/wa/RaahEMaa/Prompts/wrong_effect.wav
+%%$$~554686~0~Wed_2017-03-01_16-41-52~L2:::~sayInt complete. Now returning: value: -, name: not_Good_timeout_or_invalid, attempt: , choice:
+%%$$~554686~0~Wed_2017-03-01_16-41-52~L1:::~ReMTriviaUsersAnswers entered.
+%%$$~554686~0~Wed_2017-03-01_16-41-52~L0:::~doCurl called with url: http://127.0.0.1/wa/RaahEMaa/Scripts/trivia_answers.php?uid=3566&type=t&callid=554686&qname=pak&question=PakistanQ2.wav&answer=1, is returning: {\"result\":{\"error\":false,\"right\":0,\"wrong\":0,\"quiz\":0,\"_right\":0,\"_wrong\":0,\"_quiz\":0,\"_users questions attempts\":1,\"_users quiz atempts\":1}}
+%%$$~554686~0~Wed_2017-03-01_16-41-52~L1:::~ReMTriviaUsersAnswers JSON received: {\"result\":{\"error\":false,\"right\":0,\"wrong\":0,\"quiz\":0,\"_right\":0,\"_wrong\":0,\"_quiz\":0,\"_users questions attempts\":1,\"_users quiz atempts\":1}}
+%%$$~554686~0~Wed_2017-03-01_16-41-52~L1:::~ReMTriviaUsersAnswers returning.
+%%$$~554686~0~Wed_2017-03-01_16-41-52~L2:::~sayInt about to play: D:/xampp/htdocs/wa/RaahEMaa/Prompts/0.wav D:/xampp/htdocs/wa/RaahEMaa/Prompts/Wrong.wav
+%%$$~554686~0~Wed_2017-03-01_16-42-00~L2:::~sayInt complete. Now returning: value: -, name: not_Good_timeout_or_invalid, attempt: , choice:
+%%$$~554686~0~Wed_2017-03-01_16-42-00~L1:::~ReMInsertAnswer entered.
+%%$$~554686~0~Wed_2017-03-01_16-42-00~L0:::~doCurl called with url: http://127.0.0.1/wa/RaahEMaa/Scripts/insert_answer.php?uid=3566&type=t&callid=554686&qname=pak&question=PakistanQ2.wav&correct=&answer=1, is returning: {\"result\":{\"error\":false,\"message\":\"inserted\"}}
+%%$$~554686~0~Wed_2017-03-01_16-42-00~L1:::~ReMInsertAnswer JSON received: {\"result\":{\"error\":false,\"message\":\"inserted\"}}
+%%$$~554686~0~Wed_2017-03-01_16-42-00~L1:::~ReMInsertAnswer returning.
+%%$$~554686~0~Wed_2017-03-01_16-42-00~L2:::~sayInt about to play: D:/xampp/htdocs/wa/RaahEMaa/Prompts/PakistanQ2true.wav
+%%$$~554686~0~Wed_2017-03-01_16-42-00~L2:::~sayInt complete. Now returning: value: -, name: not_Good_timeout_or_invalid, attempt: , choice:
+%%$$~554686~0~Wed_2017-03-01_16-42-23~L1:::~ReMDBLog entered.
+%%$$~554686~0~Wed_2017-03-01_16-42-23~L0:::~doCurl called with url: http://127.0.0.1/wa/RaahEMaa/Scripts/update_log.php?uid=3566&action=Trivia:pak-PakistanQ2.wav&callid=554686&fileid=3, is returning: {\"result\":{\"error\":false,\"message\":\"inserted\"}}
+%%$$~554686~0~Wed_2017-03-01_16-42-23~L1:::~ReMDBLog JSON received: {\"result\":{\"error\":false,\"message\":\"inserted\"}}
+%%$$~554686~0~Wed_2017-03-01_16-42-23~L1:::~ReMDBLog returning.
+%%$$~554686~0~Wed_2017-03-01_16-42-23~L1:::~ReMDBLog entered.
+%%$$~554686~0~Wed_2017-03-01_16-42-23~L0:::~doCurl called with url: http://127.0.0.1/wa/RaahEMaa/Scripts/update_log.php?uid=3566&action=Trivia:pak-PakistanQ2.wav-incorrect&callid=554686&fileid=3, is returning: {\"result\":{\"error\":false,\"message\":\"inserted\"}}
+%%$$~554686~0~Wed_2017-03-01_16-42-23~L1:::~ReMDBLog JSON received: {\"result\":{\"error\":false,\"message\":\"inserted\"}}
+%%$$~554686~0~Wed_2017-03-01_16-42-23~L1:::~ReMDBLog returning.
+%%$$~554686~0~Wed_2017-03-01_16-42-23~L2:::~sayInt about to play: D:/xampp/htdocs/wa/RaahEMaa/Prompts/wrong_effect.wav
+%%$$~554686~0~Wed_2017-03-01_16-42-24~L2:::~sayInt complete. Now returning: value: -, name: not_Good_timeout_or_invalid, attempt: , choice:
+%%$$~554686~0~Wed_2017-03-01_16-42-24~L1:::~ReMTriviaUsersAnswers entered.
+%%$$~554686~0~Wed_2017-03-01_16-42-24~L0:::~doCurl called with url: http://127.0.0.1/wa/RaahEMaa/Scripts/trivia_answers.php?uid=3566&type=t&callid=554686&qname=pak&question=PakistanQ2.wav&answer=3, is returning: {\"result\":{\"error\":false,\"right\":0,\"wrong\":0,\"quiz\":0,\"_right\":0,\"_wrong\":0,\"_quiz\":0,\"_users questions attempts\":1,\"_users quiz atempts\":1}}
+%%$$~554686~0~Wed_2017-03-01_16-42-24~L1:::~ReMTriviaUsersAnswers JSON received: {\"result\":{\"error\":false,\"right\":0,\"wrong\":0,\"quiz\":0,\"_right\":0,\"_wrong\":0,\"_quiz\":0,\"_users questions attempts\":1,\"_users quiz atempts\":1}}
+%%$$~554686~0~Wed_2017-03-01_16-42-24~L1:::~ReMTriviaUsersAnswers returning.
+%%$$~554686~0~Wed_2017-03-01_16-42-24~L2:::~sayInt about to play: D:/xampp/htdocs/wa/RaahEMaa/Prompts/0.wav D:/xampp/htdocs/wa/RaahEMaa/Prompts/Wrong.wav
+%%$$~554686~0~Wed_2017-03-01_16-42-32~L2:::~sayInt complete. Now returning: value: -, name: not_Good_timeout_or_invalid, attempt: , choice:
+%%$$~554686~0~Wed_2017-03-01_16-42-32~L1:::~ReMInsertAnswer entered.
+%%$$~554686~0~Wed_2017-03-01_16-42-32~L0:::~doCurl called with url: http://127.0.0.1/wa/RaahEMaa/Scripts/insert_answer.php?uid=3566&type=t&callid=554686&qname=pak&question=PakistanQ2.wav&correct=&answer=3, is returning: {\"result\":{\"error\":false,\"message\":\"inserted\"}}
+%%$$~554686~0~Wed_2017-03-01_16-42-32~L1:::~ReMInsertAnswer JSON received: {\"result\":{\"error\":false,\"message\":\"inserted\"}}
+%%$$~554686~0~Wed_2017-03-01_16-42-32~L1:::~ReMInsertAnswer returning.
+%%$$~554686~0~Wed_2017-03-01_16-42-32~L2:::~sayInt about to play: D:/xampp/htdocs/wa/RaahEMaa/Prompts/PakistanQ2true.wav
+%%$$~554686~0~Wed_2017-03-01_16-42-32~L2:::~sayInt complete. Now returning: value: -, name: not_Good_timeout_or_invalid, attempt: , choice:
+%%$$~554686~0~Wed_2017-03-01_16-42-58~L1:::~ReMDBLog entered.
+%%$$~554686~0~Wed_2017-03-01_16-42-58~L0:::~doCurl called with url: http://127.0.0.1/wa/RaahEMaa/Scripts/update_log.php?uid=3566&action=Trivia:pak-PakistanQ2.wav&callid=554686&fileid=4, is returning: {\"result\":{\"error\":false,\"message\":\"inserted\"}}
+%%$$~554686~0~Wed_2017-03-01_16-42-58~L1:::~ReMDBLog JSON received: {\"result\":{\"error\":false,\"message\":\"inserted\"}}
+%%$$~554686~0~Wed_2017-03-01_16-42-58~L1:::~ReMDBLog returning.
+%%$$~554686~0~Wed_2017-03-01_16-42-58~L1:::~ReMDBLog entered.
+%%$$~554686~0~Wed_2017-03-01_16-42-58~L0:::~doCurl called with url: http://127.0.0.1/wa/RaahEMaa/Scripts/update_log.php?uid=3566&action=Trivia:pak-PakistanQ2.wav-incorrect&callid=554686&fileid=4, is returning: {\"result\":{\"error\":false,\"message\":\"inserted\"}}
+%%$$~554686~0~Wed_2017-03-01_16-42-58~L1:::~ReMDBLog JSON received: {\"result\":{\"error\":false,\"message\":\"inserted\"}}
+%%$$~554686~0~Wed_2017-03-01_16-42-58~L1:::~ReMDBLog returning.
+%%$$~554686~0~Wed_2017-03-01_16-42-58~L2:::~sayInt about to play: D:/xampp/htdocs/wa/RaahEMaa/Prompts/wrong_effect.wav
+%%$$~554686~0~Wed_2017-03-01_16-42-59~L2:::~sayInt complete. Now returning: value: -, name: not_Good_timeout_or_invalid, attempt: , choice:
+%%$$~554686~0~Wed_2017-03-01_16-42-59~L1:::~ReMTriviaUsersAnswers entered.
+%%$$~554686~0~Wed_2017-03-01_16-42-59~L0:::~doCurl called with url: http://127.0.0.1/wa/RaahEMaa/Scripts/trivia_answers.php?uid=3566&type=t&callid=554686&qname=pak&question=PakistanQ2.wav&answer=4, is returning: {\"result\":{\"error\":false,\"right\":0,\"wrong\":0,\"quiz\":0,\"_right\":0,\"_wrong\":0,\"_quiz\":0,\"_users questions attempts\":1,\"_users quiz atempts\":1}}
+%%$$~554686~0~Wed_2017-03-01_16-42-59~L1:::~ReMTriviaUsersAnswers JSON received: {\"result\":{\"error\":false,\"right\":0,\"wrong\":0,\"quiz\":0,\"_right\":0,\"_wrong\":0,\"_quiz\":0,\"_users questions attempts\":1,\"_users quiz atempts\":1}}
+%%$$~554686~0~Wed_2017-03-01_16-42-59~L1:::~ReMTriviaUsersAnswers returning.
+%%$$~554686~0~Wed_2017-03-01_16-42-59~L2:::~sayInt about to play: D:/xampp/htdocs/wa/RaahEMaa/Prompts/0.wav D:/xampp/htdocs/wa/RaahEMaa/Prompts/Wrong.wav
+%%$$~554686~0~Wed_2017-03-01_16-43-06~L2:::~sayInt complete. Now returning: value: -, name: not_Good_timeout_or_invalid, attempt: , choice:
+%%$$~554686~0~Wed_2017-03-01_16-43-06~L1:::~ReMInsertAnswer entered.
+%%$$~554686~0~Wed_2017-03-01_16-43-06~L0:::~doCurl called with url: http://127.0.0.1/wa/RaahEMaa/Scripts/insert_answer.php?uid=3566&type=t&callid=554686&qname=pak&question=PakistanQ2.wav&correct=&answer=4, is returning: {\"result\":{\"error\":false,\"message\":\"inserted\"}}
+%%$$~554686~0~Wed_2017-03-01_16-43-06~L1:::~ReMInsertAnswer JSON received: {\"result\":{\"error\":false,\"message\":\"inserted\"}}
+%%$$~554686~0~Wed_2017-03-01_16-43-06~L1:::~ReMInsertAnswer returning.
+%%$$~554686~0~Wed_2017-03-01_16-43-06~L2:::~sayInt about to play: D:/xampp/htdocs/wa/RaahEMaa/Prompts/PakistanQ2true.wav
+%%$$~554686~0~Wed_2017-03-01_16-43-06~L2:::~sayInt complete. Now returning: value: -, name: not_Good_timeout_or_invalid, attempt: , choice:
+%%$$~554686~0~Wed_2017-03-01_16-43-21~L1:::~ReMDBLog entered.
+%%$$~554686~0~Wed_2017-03-01_16-43-21~L0:::~doCurl called with url: http://127.0.0.1/wa/RaahEMaa/Scripts/update_log.php?uid=3566&action=Trivia:pak-PakistanQ2.wav&callid=554686&fileid=2, is returning: {\"result\":{\"error\":false,\"message\":\"inserted\"}}
+%%$$~554686~0~Wed_2017-03-01_16-43-21~L1:::~ReMDBLog JSON received: {\"result\":{\"error\":false,\"message\":\"inserted\"}}
+%%$$~554686~0~Wed_2017-03-01_16-43-21~L1:::~ReMDBLog returning.
+%%$$~554686~0~Wed_2017-03-01_16-43-21~L1:::~ReMDBLog entered.
+%%$$~554686~0~Wed_2017-03-01_16-43-21~L0:::~doCurl called with url: http://127.0.0.1/wa/RaahEMaa/Scripts/update_log.php?uid=3566&action=Trivia:pak-PakistanQ2.wav-correct&callid=554686&fileid=2, is returning: {\"result\":{\"error\":false,\"message\":\"inserted\"}}
+%%$$~554686~0~Wed_2017-03-01_16-43-21~L1:::~ReMDBLog JSON received: {\"result\":{\"error\":false,\"message\":\"inserted\"}}
+%%$$~554686~0~Wed_2017-03-01_16-43-21~L1:::~ReMDBLog returning.
+%%$$~554686~0~Wed_2017-03-01_16-43-21~L2:::~sayInt about to play: D:/xampp/htdocs/wa/RaahEMaa/Prompts/applause_effect.wav
+%%$$~554686~0~Wed_2017-03-01_16-43-25~L2:::~sayInt complete. Now returning: value: -, name: not_Good_timeout_or_invalid, attempt: , choice:
+%%$$~554686~0~Wed_2017-03-01_16-43-25~L1:::~ReMTriviaUsersAnswers entered.
+%%$$~554686~0~Wed_2017-03-01_16-43-25~L0:::~doCurl called with url: http://127.0.0.1/wa/RaahEMaa/Scripts/trivia_answers.php?uid=3566&type=t&callid=554686&qname=pak&question=PakistanQ2.wav&answer=2, is returning: {\"result\":{\"error\":false,\"right\":0,\"wrong\":0,\"quiz\":0,\"_right\":0,\"_wrong\":0,\"_quiz\":0,\"_users questions attempts\":1,\"_users quiz atempts\":1}}
+%%$$~554686~0~Wed_2017-03-01_16-43-25~L1:::~ReMTriviaUsersAnswers JSON received: {\"result\":{\"error\":false,\"right\":0,\"wrong\":0,\"quiz\":0,\"_right\":0,\"_wrong\":0,\"_quiz\":0,\"_users questions attempts\":1,\"_users quiz atempts\":1}}
+%%$$~554686~0~Wed_2017-03-01_16-43-25~L1:::~ReMTriviaUsersAnswers returning.
+%%$$~554686~0~Wed_2017-03-01_16-43-25~L2:::~sayInt about to play: D:/xampp/htdocs/wa/RaahEMaa/Prompts/0.wav D:/xampp/htdocs/wa/RaahEMaa/Prompts/Right.wav
+%%$$~554686~0~Wed_2017-03-01_16-43-32~L2:::~sayInt complete. Now returning: value: -, name: not_Good_timeout_or_invalid, attempt: , choice:
+%%$$~554686~0~Wed_2017-03-01_16-43-32~L1:::~ReMInsertAnswer entered.
+%%$$~554686~0~Wed_2017-03-01_16-43-32~L0:::~doCurl called with url: http://127.0.0.1/wa/RaahEMaa/Scripts/insert_answer.php?uid=3566&type=t&callid=554686&qname=pak&question=PakistanQ2.wav&correct=1&answer=2, is returning: {\"result\":{\"error\":false,\"message\":\"inserted\"}}
+%%$$~554686~0~Wed_2017-03-01_16-43-32~L1:::~ReMInsertAnswer JSON received: {\"result\":{\"error\":false,\"message\":\"inserted\"}}
+%%$$~554686~0~Wed_2017-03-01_16-43-32~L1:::~ReMInsertAnswer returning.
+%%$$~554686~0~Wed_2017-03-01_16-43-32~L2:::~sayInt about to play: D:/xampp/htdocs/wa/RaahEMaa/Prompts/PakistanQ2true.wav
+%%$$~554686~0~Wed_2017-03-01_16-43-32~L2:::~sayInt complete. Now returning: value: -, name: not_Good_timeout_or_invalid, attempt: , choice:
+%%$$~554686~0~Wed_2017-03-01_16-43-32~L2:::~sayInt about to play: D:/xampp/htdocs/wa/RaahEMaa/Prompts/Aglasawaal.wav
+%%$$~554686~0~Wed_2017-03-01_16-43-35~L2:::~sayInt complete. Now returning: value: -, name: not_Good_timeout_or_invalid, attempt: , choice:
+%%$$~554686~0~Wed_2017-03-01_16-43-35~L1:::~ReMTrivia prompt: D:/xampp/htdocs/wa/RaahEMaa/Prompts/PakistanQ3.wav D:/xampp/htdocs/wa/RaahEMaa/Prompts/PakistanQ3options.wav
+%%$$~554686~0~Wed_2017-03-01_16-43-55~L1:::~ReMDBLog entered.
+%%$$~554686~0~Wed_2017-03-01_16-43-55~L0:::~doCurl called with url: http://127.0.0.1/wa/RaahEMaa/Scripts/update_log.php?uid=3566&action=Trivia:pak-PakistanQ3.wav&callid=554686&fileid=4, is returning: {\"result\":{\"error\":false,\"message\":\"inserted\"}}
+%%$$~554686~0~Wed_2017-03-01_16-43-55~L1:::~ReMDBLog JSON received: {\"result\":{\"error\":false,\"message\":\"inserted\"}}
+%%$$~554686~0~Wed_2017-03-01_16-43-55~L1:::~ReMDBLog returning.
+%%$$~554686~0~Wed_2017-03-01_16-43-55~L1:::~ReMDBLog entered.
+%%$$~554686~0~Wed_2017-03-01_16-43-55~L0:::~doCurl called with url: http://127.0.0.1/wa/RaahEMaa/Scripts/update_log.php?uid=3566&action=Trivia:pak-PakistanQ3.wav-incorrect&callid=554686&fileid=4, is returning: {\"result\":{\"error\":false,\"message\":\"inserted\"}}
+%%$$~554686~0~Wed_2017-03-01_16-43-55~L1:::~ReMDBLog JSON received: {\"result\":{\"error\":false,\"message\":\"inserted\"}}
+%%$$~554686~0~Wed_2017-03-01_16-43-55~L1:::~ReMDBLog returning.
+%%$$~554686~0~Wed_2017-03-01_16-43-55~L2:::~sayInt about to play: D:/xampp/htdocs/wa/RaahEMaa/Prompts/wrong_effect.wav
+%%$$~554686~0~Wed_2017-03-01_16-43-56~L2:::~sayInt complete. Now returning: value: -, name: not_Good_timeout_or_invalid, attempt: , choice:
+%%$$~554686~0~Wed_2017-03-01_16-43-56~L1:::~ReMTriviaUsersAnswers entered.
+%%$$~554686~0~Wed_2017-03-01_16-43-56~L0:::~doCurl called with url: http://127.0.0.1/wa/RaahEMaa/Scripts/trivia_answers.php?uid=3566&type=t&callid=554686&qname=pak&question=PakistanQ3.wav&answer=4, is returning: {\"result\":{\"error\":false,\"right\":0,\"wrong\":0,\"quiz\":0,\"_right\":0,\"_wrong\":0,\"_quiz\":0,\"_users questions attempts\":1,\"_users quiz atempts\":1}}
+%%$$~554686~0~Wed_2017-03-01_16-43-56~L1:::~ReMTriviaUsersAnswers JSON received: {\"result\":{\"error\":false,\"right\":0,\"wrong\":0,\"quiz\":0,\"_right\":0,\"_wrong\":0,\"_quiz\":0,\"_users questions attempts\":1,\"_users quiz atempts\":1}}
+%%$$~554686~0~Wed_2017-03-01_16-43-56~L1:::~ReMTriviaUsersAnswers returning.
+%%$$~554686~0~Wed_2017-03-01_16-43-56~L2:::~sayInt about to play: D:/xampp/htdocs/wa/RaahEMaa/Prompts/0.wav D:/xampp/htdocs/wa/RaahEMaa/Prompts/Wrong.wav
+%%$$~554686~0~Wed_2017-03-01_16-44-03~L2:::~sayInt complete. Now returning: value: -, name: not_Good_timeout_or_invalid, attempt: , choice:
+%%$$~554686~0~Wed_2017-03-01_16-44-03~L1:::~ReMInsertAnswer entered.
+%%$$~554686~0~Wed_2017-03-01_16-44-03~L0:::~doCurl called with url: http://127.0.0.1/wa/RaahEMaa/Scripts/insert_answer.php?uid=3566&type=t&callid=554686&qname=pak&question=PakistanQ3.wav&correct=&answer=4, is returning: {\"result\":{\"error\":false,\"message\":\"inserted\"}}
+%%$$~554686~0~Wed_2017-03-01_16-44-03~L1:::~ReMInsertAnswer JSON received: {\"result\":{\"error\":false,\"message\":\"inserted\"}}
+%%$$~554686~0~Wed_2017-03-01_16-44-03~L1:::~ReMInsertAnswer returning.
+%%$$~554686~0~Wed_2017-03-01_16-44-03~L2:::~sayInt about to play: D:/xampp/htdocs/wa/RaahEMaa/Prompts/PakistanQ3true.wav
+%%$$~554686~0~Wed_2017-03-01_16-44-03~L1:::~Is the current call active? false. Hanging up if the call is not active.
+%%$$~554686~0~Wed_2017-03-01_16-44-03~L2:::~Prehangup was called.
+%%$$~554686~0~Wed_2017-03-01_16-44-03~L0:::~doCurl called with url: http://127.0.0.1/wa/DBScripts/Update_Waiting_DLV_Reqs.php?rcallid=554686, is returning: Early Return.
+%%$$~554686~0~Wed_2017-03-01_16-44-03~L0:::~doCurl called with url: http://127.0.0.1/wa/DBScripts/Update_Call_Status.php?callid=554686&status=Answered, is returning: Early Return.
+%%$$~554686~0~Wed_2017-03-01_16-44-03~L0:::~calledID:
+-ERR no reply
+, SessionID: 0b5d2ae1-c38e-4665-80a9-87b60e9b0c12
+%%$$~554686~0~Wed_2017-03-01_16-44-03~L2:::~Hanging Up. Call ended for callid: 554686
+%%$$~554686~0~Wed_2017-03-01_16-44-03~L0:::~doCurl called with url: http://127.0.0.1/wa/DBScripts/Update_Call_Endtime.php?callid=554686, is returning: 0
+%%$$~554686~0~Wed_2017-03-01_16-44-03~L0:::~sendLogs called.
+%%$$
